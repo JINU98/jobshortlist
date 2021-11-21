@@ -1,0 +1,55 @@
+body{
+    /* background-color: blue; */
+    background-color: #2850ed;
+    /* background-color: #788cff; */
+}
+div{
+    /* border: 2px solid yellow; */
+    margin: auto;
+    text-align: center;
+}
+img{
+    border: 10px solid yellow;
+}
+p{
+    margin:auto 0;
+    font-size: 15px;
+    color: yellow;
+    font-weight: 800;
+    /* text-align: center; */
+
+}
+
+button{
+    border: 3px solid yellow;
+
+}
+
+input{
+    margin-left: 80%;
+    height: 20px;
+   }
+
+span{
+    /* margin:auto 0; */
+    font-size: 15px;
+    color: yellow;
+    font-weight: 800;
+    text-align: center;
+    margin:0vw 10vw;
+    border-bottom: 2px solid yellow;
+}
+
+
+@media screen and (max-width: 500px) {
+    span{
+        /* margin:auto 0; */
+        font-size: 15px;
+        color: yellow;
+        font-weight: 800;
+        text-align: center;
+        margin:0vw 5vw;
+        border-bottom: 2px solid yellow;
+    }
+    
+  }
